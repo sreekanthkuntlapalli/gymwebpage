@@ -1,0 +1,74 @@
+
+header{
+    /* header section */
+    display: flex;
+    background-color: rgb(249, 243, 236);
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(170, 245, 245);
+}
+header a{
+    /* for header all anchortags */
+    color: rgb(66, 10, 10);
+    padding: 10px;
+    text-decoration: none;
+}
+#contact{
+    /* speacial apperance to the contact */
+    background-color: rgb(112, 37, 37);
+    color: aquamarine;
+    border-radius: 50px;}
+.body1{
+    /* speacial text for easy understanding */
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid blue; */
+    width: 100%;   
+}
+/* color for those speacial text */
+.body1 h3,h1{
+    color: rgb(41, 171, 227);
+}
+.image{
+    /* for arranging image  */
+    display: flex;
+    align-items: center;
+
+}
+.headings{
+    /* all header and some headings into be aligned center */
+    text-align: center;
+    color: rgb(75, 64, 64);
+}
+.blog1{
+    /* for blog section */
+    display: flex;
+}
+.blog1 p{
+    /* good looking for adding padding between them */
+    margin-left: 20px;
+}
+.socialmedia{
+    /* for following the socialmedia */
+    display: flex;
+    width: 100%;
+    color: rgb(174, 88, 88);
+    text-decoration: none;
+}
+.socialmedia a{
+    color: inherit;
+    text-decoration: inherit;
+    padding: 10px;
+}
+footer{
+    background-color: rgb(249, 243, 236);
+    padding: 0;
+    margin: 0;
+}

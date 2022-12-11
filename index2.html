@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <style>
+    body {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    background-color: #383861;
+    color: #f5f6f7;
+    font-family: Tahoma;
+    font-size: 16px;
+  }
+   form {
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+  }
+  fieldset{
+    border: none;
+    padding: 2rem 0;
+    }
+  fieldset:last-of-type {
+    border-bottom: none;
+  }
+  
+  legend{
+    text-align: center;
+    padding-bottom: 0;
+    border-bottom: 0;
+  }
+  .login input {
+    background-color: #0a0a23;
+    border: 1px solid #0a0a23;
+    color: #ffffff;
+  }
+  fieldset{
+    border: none;
+    padding: 2rem 0;
+    }
+  .login label{
+    display: block;
+    margin: 0.5rem 0;
+    margin-top: 10px;
+  }
+  .login input{
+  width: 100%;
+  }
+  #button1{
+    margin-top: 10px;
+    border: 1px solid;
+    border-radius: 50px;
+    color: white;
+    background-color: purple;
+  }
+    </style>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Login Form</legend>
+            <div class="login">
+                   <label for="email">Email:</label><br>
+                   <input type="email" id="email" placeholder="Enter Your Email" required><br>
+                   <label for="password">Password:</label><br>
+                   <input type="password" id="password" placeholder="Enter Password" required><br>
+                </div>
+                   <label for="button1">Login Here:</label>
+                   <button id="button1">LogIn</button>
+        </fieldset>
+    </form>
+</body>
+</html>
